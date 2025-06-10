@@ -1,0 +1,38 @@
+footer {
+    margin: 0;
+    padding: 0 0 24px 24px;
+}
+
+.footer-button {
+    display: inline-block;
+    padding: 16px 36px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    background: transparent;
+    color: #fff;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s, border 0.2s;
+    position: relative;
+    font-family: inherit;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+
+.footer-button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: #fff;
+    border-color: var(--cyan);
+}
+
+#arrow-hover {
+    margin-left: 8px;
+    height: 18px;
+    vertical-align: middle;
+    transition: transform 0.2s;
+}
+
+.footer-button:hover #arrow-hover {
+    transform: translateX(6px) scale(1.1);
+}
